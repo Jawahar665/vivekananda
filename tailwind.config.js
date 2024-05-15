@@ -8,6 +8,10 @@ export default {
     extend: {
       fontFamily:{
         display:['Reddit Sans','mono']
+        ,
+        freeman:['Freeman ','mono'],
+        Canada:['Canada ','mono'],
+        Lato:['Lato ','mono']
       }
     },
   },

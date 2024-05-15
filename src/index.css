@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poetsen+One&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto+Condensed:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Radio+Canada+Big:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Radio+Canada+Big:ital,wght@0,700;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .mobile-nav{
-    @apply fixed top-0 bg-white w-full h-full
+    @apply fixed top-16 bg-black w-full h-1  px-6
+}
+.bg-secondary{
+    background-color: #4D6DE3;
+    height: auto;
 }
