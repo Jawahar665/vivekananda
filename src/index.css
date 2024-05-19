@@ -15,7 +15,7 @@ header ul li {
 }
 
 .mobile-nav {
-    @apply absolute top-16 ;
+    @apply absolute top-16 left-0 ;
 }
 
 .project-desc {

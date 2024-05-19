@@ -19,8 +19,8 @@ export const Navbar = () => {
                 <li className=' hover:text-blue-400'><a href="/#contact">Contact</a></li>
             </ul>
         </nav>
-        {toggleMenu && <nav className="block md:hidden  bg-gray-800 opacity-75">
-            <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white  mobile-nav">
+        {toggleMenu && <nav className=" block md:hidden ">
+            <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white  mobile-nav bg-black opacity-80 w-full space-y-3 px-3 py-3">
                 <li><a href="#">Home</a></li>
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#skill">Skills</a></li>
