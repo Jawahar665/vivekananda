@@ -7,7 +7,7 @@ header ul li {
 }
 
 .bg-primary {
-    background: rgb(85 81 227);
+    background: #5BBCFF;
 }
 
 .bg-secondary {
@@ -15,9 +15,24 @@ header ul li {
 }
 
 .mobile-nav {
-    @apply fixed top-16 left-0 bg-gray-800 w-full h-60 py-3 opacity-75 ;
+    @apply absolute top-16 ;
+}
+
+.project-desc {
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
 }
 
 .mobile-nav li {
     @apply w-full h-full  ;
+}
+.skills-css{
+   background-color: #CAF4FF;
+}
+
+.btn {
+    @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
+
+html {
+    scroll-behavior: smooth;
 }
