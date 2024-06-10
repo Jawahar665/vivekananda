@@ -9,7 +9,7 @@ export default function Projects() {
         projects: [
             {
                 id: 0,
-                image: websiteImg1,
+                image: websiteImg2,
                 description: 'Its a Static Website Using Pure HTML,CSS',
                 link: 'https://thriving-manatee-933809.netlify.app/'
             },
