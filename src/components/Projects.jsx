@@ -1,6 +1,7 @@
 import websiteImg1 from '../assets/soho-hostel.png';
-import websiteImg2 from '../assets/api.png';
-import websiteImg3 from '../assets/api.png';
+import websiteImg2 from '../assets/j-cart.png';
+import websiteImg3 from '../assets/blog-app.png';
+import websiteImg4 from '../assets/image.png';
 
 export default function Projects() {
 
@@ -9,20 +10,26 @@ export default function Projects() {
             {
                 id: 0,
                 image: websiteImg1,
-                description: 'Its a Statis Website Using Pure HTML,CSS',
+                description: 'Its a Static Website Using Pure HTML,CSS',
                 link: 'https://thriving-manatee-933809.netlify.app/'
             },
             {
                 id: 1,
                 image: websiteImg2,
-                description: 'Food recepie website , Built with react-js redux & using MealDB Api',
-                link: 'https://github.com/jvlcode/food'
+                description: 'J-Cart Product Buying Webiste , Built with react-js redux & using DataBase MongoDB,and Deploying AWS',
+                link: 'http://13.50.16.106:8000'
             },
             {
                 id: 2,
                 image: websiteImg3,
-                description: 'Basic Blog Website . Built with Next JS and MongoDB',
-                link: 'https://github.com/jvlcode/blog'
+                description: 'Basic Blog Website . Built with React JS',
+                link: 'https://6666dd71c02aa2257688c252--letsblogging.netlify.app/'  
+            },
+            {
+                id: 3,
+                image: websiteImg4,
+                description: 'Its a Image Searching Website . Built with React JS' ,
+                link: 'https://imageuniverse.netlify.app/',
             }
         ]
     }
