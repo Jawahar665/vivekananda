@@ -26,7 +26,7 @@ return <section className='flex flex-col-reverse max-md:text-center md:flex-row 
         </div>
 
         <div>
-            <button className=' bg-yellow-300 px-6 py-3 rounded-xl '><a className='text-lg font-semibold' href="https://drive.google.com/file/d/12Nh3h5MOIfkd8phzGWKQJnuicSZHm7Ev/view?usp=drive_link">Check Resume</a></button>
+            <button className=' bg-yellow-300 px-6 py-3 rounded-xl '><a className='text-lg font-semibold' href="https://online.flippingbook.com/view/1024806870/">Check Resume</a></button>
         </div>
    </div>
    <img className=' max-md: w-3/4 md:w-1/4' src={HeroImg} />

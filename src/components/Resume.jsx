@@ -3,7 +3,7 @@ import  ResumeImg from '../assets/resume.jpg'
 
 export const Resume = () => {
     const config = {
-        link: 'https://drive.google.com/file/d/12Nh3h5MOIfkd8phzGWKQJnuicSZHm7Ev/view?usp=drive_link'
+        link: 'https://online.flippingbook.com/view/1024806870/'
     }
   return (
 

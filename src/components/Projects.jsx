@@ -1,7 +1,7 @@
 import websiteImg1 from '../assets/soho-hostel.png';
 import websiteImg2 from '../assets/j-cart.png';
 import websiteImg3 from '../assets/blog-app.png';
-import websiteImg4 from '../assets/image.png';
+import websiteImg4 from '../assets/imagefinder.png';
 
 export default function Projects() {
 
@@ -9,7 +9,7 @@ export default function Projects() {
         projects: [
             {
                 id: 0,
-                image: websiteImg2,
+                image: websiteImg1,
                 description: 'Its a Static Website Using Pure HTML,CSS',
                 link: 'https://thriving-manatee-933809.netlify.app/'
             },
