@@ -15,6 +15,7 @@ export const Navbar = () => {
                 <li className=' hover:text-blue-400'><a href="/#vision">Vision</a></li>
                 <li className=' hover:text-blue-400'><a href="/#mission">Mission</a></li>
                 <li className=' hover:text-blue-400'><a href="/#projects">Philosophy</a></li>
+                <li className=' hover:text-blue-400'><a href="/#contact">Contact</a></li>
             </ul>
         </nav>
         {toggleMenu && <nav className=" block md:hidden ">
@@ -23,6 +24,7 @@ export const Navbar = () => {
                 <li><a href="/#vision">Vision</a></li>
                 <li><a href="/#mission">Mission</a></li>
                 <li><a href="#projects">Philosophy</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>}
         <button onClick={() => setToggleMenu(!toggleMenu)} className='block md:hidden'><Bars3Icon className='text-white h-5' /></button>
