@@ -14,7 +14,7 @@ export const Navbar = () => {
                 <li className=' hover:text-blue-400'><a href="/#">Home</a></li>
                 <li className=' hover:text-blue-400'><a href="/#vision">Vision</a></li>
                 <li className=' hover:text-blue-400'><a href="/#mission">Mission</a></li>
-                <li className=' hover:text-blue-400'><a href="/#projects">Pnpm run previewhilosophy</a></li>
+                <li className=' hover:text-blue-400'><a href="/#projects">Philosophy</a></li>
             </ul>
         </nav>
         {toggleMenu && <nav className=" block md:hidden ">
