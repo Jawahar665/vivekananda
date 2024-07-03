@@ -14,14 +14,14 @@ export const Navbar = () => {
                 <li className=' hover:text-blue-400'><a href="/#">Home</a></li>
                 <li className=' hover:text-blue-400'><a href="/#vision">Vision</a></li>
                 <li className=' hover:text-blue-400'><a href="/#mission">Mission</a></li>
-                <li className=' hover:text-blue-400'><a href="/#projects">Philosophy</a></li>
+                <li className=' hover:text-blue-400'><a href="/#projects">Pnpm run previewhilosophy</a></li>
             </ul>
         </nav>
         {toggleMenu && <nav className=" block md:hidden ">
             <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white  mobile-nav bg-black opacity-80 w-full space-y-3 px-3 py-3">
                 <li><a href="#">Home</a></li>
-                <li><a href="/#about">Vision</a></li>
-                <li><a href="/#skill">Mission</a></li>
+                <li><a href="/#vision">Vision</a></li>
+                <li><a href="/#mission">Mission</a></li>
                 <li><a href="#projects">Philosophy</a></li>
             </ul>
         </nav>}
