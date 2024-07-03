@@ -2,14 +2,14 @@ import React from 'react'
 
 export const Contact = () => {
     const config = {
-        email : 'jawaharselvaraj665@gmail.com',
-        phone: '+91-9787130942'
+        email : 'Kavyamanikandan07@gmail.com',
+        phone: '+91-9345710820'
     }
  
    
 
     return(
-     <section id='contact' className='flex flex-col bg-primary px-5 py-32 text-white'>
+     <section id='contact' className='flex flex-col bg-secondary px-5 py-32 text-white'>
         <div className='flex flex-col items-center'>
            
             <h1 className='text-4xl border-b-4  border-secondary mb-5 w-[140px] font-bold'>Contact</h1>
