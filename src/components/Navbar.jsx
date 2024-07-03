@@ -1,7 +1,7 @@
 import React from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import { useState } from 'react';
- import profileImage from '../assets/logo.png'
+import profileImage from '../assets/logo.png'
 
 export const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
